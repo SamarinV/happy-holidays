@@ -1,39 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../happy-holidays/pages/index.css">
-  <title>Веселые каникулы</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../happy-holidays/pages/index.css">
+    <title>Веселые каникулы</title>
 </head>
+
 <body class="root">
 
-  <header class="header">
-    <nav class="menu">
-      <ul class="menu__list">
-        <li class="menu__list-item"><a class="menu__link" href="#">Мечты</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#">Ожидания</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#">Реальность</a></li>
-      </ul>
-    </nav>
-    <a class="header__link-complaint" href="#">Пожаловаться</a>
-  </header>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__list-item"><a class="menu__link" href="#">Мечты</a></li>
+                <li class="menu__list-item"><a class="menu__link" href="#">Ожидания</a></li>
+                <li class="menu__list-item"><a class="menu__link" href="#">Реальность</a></li>
+            </ul>
+        </nav>
+        <a class="header__link-complaint" href="#">Пожаловаться</a>
+    </header>
 
-  <main>
-    <!-- места -->
-    <section></section>
+    <main>
+        <!-- места -->
+        <section></section>
 
-    <!-- о чем говорят -->
-    <section></section>
+        <!-- о чем говорят -->
+        <section class="men">
+            <p class="men__word">Люди</p>
+            <h2 class="men__title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
+            <ul class="men__list">
+                <li class="men__list-item">
+                    <h3 class="men__author">Иван Бунин</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность путешествовать.</p>
+                    </blockquote>
+                </li>
+                <li class="men__list-item">
+                    <h3 class="men__author">Альбер Камю</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.</p>
+                    </blockquote>
+                </li>
+                <li class="men__list-item">
+                    <h3 class="men__author">Норвежская пословица</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">Лишь тот, кто странствует, открывает новые пути.</p>
+                    </blockquote>
+                </li>
+                <li class="men__list-item">
+                    <h3 class="men__author">Мария Захарова</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее и&nbsp;очень рискованное предприятие.</p>
+                    </blockquote>
+                </li>
+            </ul>
+        </section>
 
-    <!-- блок с формой -->
-    <section></section>
+        <!-- блок с формой -->
+        <section class="form">
+            <div class="form__info-block">
+                <h2 class="form__title">Так куда&nbsp;же я&nbsp;поеду?</h2>
+                <form class="form__area">
+                    <input class="form__input" type="text" placeholder="Я&nbsp;поеду ...">
+                    <textarea class="form__text" placeholder="Потому что я ..."></textarea>
+                    <button class="form__button" type="submit">Поехали уже куда-нибудь!</button>
+                </form>
+            </div>
+            <img class="form__image" src="./images/airport-schedule.jpg" alt="Табло в Аэропорте">
+        </section>
 
-    <!-- блок с видео -->
-    <section></section>
-  </main>
+        <!-- блок с видео -->
+        <section class="video">
+            <p>А&nbsp;пока что&nbsp;&mdash; всё ещё сидим дома!</p>
+            <iframe class="video__file" id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/JGNiMutYBm4" frameborder="0" allowfullscreen poster="./images/video.jpg">
+          </section>
+    </main>
 
-  <footer></footer>
+    <footer class="footer">
+        <p class="footer__copyrights">&copy;&nbsp;2021</p>
+    </footer>
 
 </body>
+
 </html>
