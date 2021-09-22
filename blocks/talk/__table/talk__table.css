@@ -1,0 +1,8 @@
+.talk__table {
+  list-style-type: none;
+  margin: 118px 0 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, 240px);
+  gap: 60px;
+}
