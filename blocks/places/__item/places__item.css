@@ -1,6 +1,5 @@
 .places__item {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(512px, 1fr) );
-  grid-template-rows: 470px, 1fr;
+  grid-template-columns: 640px minmax(400px, 640px);
+  grid-template-rows: minmax(min-content, 535px);
 }
