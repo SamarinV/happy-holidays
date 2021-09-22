@@ -1,0 +1,5 @@
+.men {
+    display: flex;
+    flex-direction: column;
+    margin: 115px auto 110px;
+}
