@@ -1,0 +1,5 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 155px 130px 70px;
+}
