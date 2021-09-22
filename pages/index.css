@@ -8,21 +8,13 @@
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/caption/caption.css);
-@import url(../blocks/caption/_place/caption__place_intro.css);
-@import url(../blocks/title/title.css);
+@import url(../blocks/intro/__caption/intro__caption.css);
+@import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__image/intro__image.css);
 
-@import url(../blocks/places/places.css); /* пустой */
+@import url(../blocks/places/places.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__heading/places__heading.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-
-@import url(../blocks/talk/talk.css);
-@import url(../blocks/talk/__title/talk__title.css);
-@import url(../blocks/talk/__table/talk__table.css);
-@import url(../blocks/talk/__cell/talk__cell.css);
-@import url(../blocks/talk/__cell-heading/talk__cell-heading.css);
-@import url(../blocks/talk/__cell-text/talk__cell-text.css);

@@ -1,5 +1,5 @@
 .places__item {
   display: grid;
   grid-template-columns: 640px minmax(400px, 640px);
-  grid-template-rows: minmax(min-content, 535px);
+  grid-template-rows: minmax(min-content, 533px);
 }
