@@ -23,4 +23,6 @@
 @import url(../blocks/talk/talk.css);
 @import url(../blocks/talk/__title/talk__title.css);
 @import url(../blocks/talk/__table/talk__table.css);
-@import url(../blocks/talk/__cell/talk__table.css);
+@import url(../blocks/talk/__cell/talk__cell.css);
+@import url(../blocks/talk/__cell-heading/talk__cell-heading.css);
+@import url(../blocks/talk/__cell-text/talk__cell-text.css);

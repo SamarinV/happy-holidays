@@ -1,8 +1,9 @@
 .caption {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 1.5px;
   color: rgb(254,211,178);
-  margin-bottom: 30px;
+  margin-bottom: 27px;
+  text-transform: uppercase;
 }
