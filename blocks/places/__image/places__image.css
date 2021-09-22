@@ -1,0 +1,5 @@
+.places__image {
+  width: 50vw;
+  max-height: 100%;
+  object-fit: cover;
+}

@@ -9,22 +9,84 @@
 <body class="root">
 
   <header class="header">
-    <nav class="menu">
-      <ul class="menu__list">
-        <li class="menu__list-item"><a class="menu__link" href="#">Мечты</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#">Ожидания</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#">Реальность</a></li>
+    <nav>
+      <ul class="header__menu-list">
+        <li class="header__menu-item"><a class="header__link" href="#">Мечты</a></li>
+        <li class="header__menu-item"><a class="header__link" href="#">Ожидания</a></li>
+        <li class="header__menu-item"><a class="header__link" href="#">Реальность</a></li>
       </ul>
     </nav>
-    <a class="header__link-complaint" href="#">Пожаловаться</a>
+    <a class="header__link" href="#">Пожаловаться</a>
   </header>
 
   <main>
+    <section class="intro">
+      <div class="intro__text">
+        <p class="caption caption__place_intro">Куда я поеду</p>
+        <h1 class="title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+      </div>
+        <img class="intro__image" src="../images/intro-image.jpeg" alt="вид из иллюминатора самолета">
+    </section>
+    
     <!-- места -->
-    <section></section>
+    <section class="places">
+      <article class="places__item">
+        <img class="places__image" src="../images/places-forest.jpeg" alt="">
+        <div class="places__text">
+          <h2 class="places__heading">Поеду в лес</h2>
+          <div>
+            <p class="places__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+            <p class="places__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="places">
+      <article class="places__item">
+        <div class="places__text">
+          <h2 class="places__heading">Поеду в горы</h2>
+          <p class="places__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+        </div>
+        <img class="places__image" src="../images/places-mountains.jpeg" alt="">
+      </article>
+    </section>
+    <section class="places">
+      <article class="places__item">
+        <img class="places__image" src="../images/places-black-sea.jpeg" alt="">
+        <div class="places__text">
+          <h2 class="places__heading">Поеду на Чёрное море</h2>
+          <div>
+            <p class="places__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+            <p class="places__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+            <p class="places__paragraph">Уеду я.</p>
+        </div>
+        </div>
+      </article>
+    </section>
 
     <!-- о чем говорят -->
-    <section></section>
+    <section class="talk">
+      <p class="caption">Люди</p>
+      <h2 class="talk__title title">Что говорят и говорили люди о путешествиях</h2>
+      <ul class="talk__table">
+        <li class="talk__cell">
+          <h3 class="talk__cell-heading">Иван Бунин</h3>
+          <p class="talk__cell-text">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+        </li>
+        <li class="talk__cell">
+          <h3 class="talk__cell-heading">Альбер Камю</h3>
+          <p class="talk__cell-text">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+        </li>
+        <li class="talk__cell">
+          <h3 class="talk__cell-heading">Норвежская пословица</h3>
+          <p class="talk__cell-text">Лишь тот, кто странствует, открывает новые пути.</p>
+        </li>
+        <li class="talk__cell">
+          <h3 class="talk__cell-heading">Мария Захарова</h3>
+          <p class="talk__cell-text">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+        </li>
+      </ul>
+    </section>
 
     <!-- блок с формой -->
     <section></section>
