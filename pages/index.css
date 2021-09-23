@@ -18,3 +18,25 @@
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__heading/places__heading.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
+
+@import url(../blocks/men/men.css);
+@import url(../blocks/men/__word/men__word.css);
+@import url(../blocks/men/__title/men__title.css);
+@import url(../blocks/men/__list/men__list.css);
+@import url(../blocks/men/__list-item/men__list-item.css);
+@import url(../blocks/men/__author/men__author.css);
+@import url(../blocks/men/__quote/men__quote.css);
+@import url(../blocks/men/__text/men__text.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__info-block/form__info-block.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__area/form__area.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__text/form__text.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__image/form__image.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__file/video__file.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyrights/footer__copyrights.css);
