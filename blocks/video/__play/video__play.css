@@ -1,0 +1,15 @@
+.video__play {
+  position: absolute;
+  left: 47%;
+  top: 46%;
+  z-index: 2;
+  max-width: 5.15vw;
+  min-width: 45px;
+}
+
+@media screen and (max-width: 424px) {
+    .video__play {
+      left: 45%;
+      top: 44%;
+    }
+  }

@@ -1,4 +1,11 @@
 .men__list-item {
-    max-width: 210px;
+    max-width: 240px;
     list-style: none;
+    margin-bottom: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .men__list-item {
+        margin-bottom: 30px;
+    }
+  }
