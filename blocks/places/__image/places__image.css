@@ -6,6 +6,17 @@
 
 @media screen and (max-width: 1023px) {
   .places__image {
-    height: 322px;
+    height: 355px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .places__image {
+    height: 400px;
+    grid-row: 3;
+  }
+}
+@media screen and (max-width: 424px) {
+  .places__image {
+    height: 280px;
   }
 }

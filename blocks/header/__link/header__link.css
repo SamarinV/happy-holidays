@@ -5,3 +5,6 @@
   font-weight: bold;
   display: block;
 }
+.header__link:hover {
+  text-decoration: underline
+}
