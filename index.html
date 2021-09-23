@@ -2,10 +2,10 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Веселые каникулы</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Веселые каникулы</title>
 </head>
 
 <body class="root">
@@ -60,7 +60,61 @@
         </div>
       </article>
     </section>
+        <!-- о чем говорят -->
+        <section class="men">
+            <p class="men__word">Люди</p>
+            <h2 class="men__title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
+            <ul class="men__list">
+                <li class="men__list-item">
+                    <h3 class="men__author">Иван Бунин</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность путешествовать.</p>
+                    </blockquote>
+                </li>
+                <li class="men__list-item">
+                    <h3 class="men__author">Альбер Камю</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.</p>
+                    </blockquote>
+                </li>
+                <li class="men__list-item">
+                    <h3 class="men__author">Норвежская пословица</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">Лишь тот, кто странствует, открывает новые пути.</p>
+                    </blockquote>
+                </li>
+                <li class="men__list-item">
+                    <h3 class="men__author">Мария Захарова</h3>
+                    <blockquote class="men__quote">
+                        <p class="men__text">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее и&nbsp;очень рискованное предприятие.</p>
+                    </blockquote>
+                </li>
+            </ul>
+        </section>
 
+        <!-- блок с формой -->
+        <section class="form">
+            <div class="form__info-block">
+                <h2 class="form__title">Так куда&nbsp;же я поеду?</h2>
+                <form class="form__area">
+                    <input class="form__input" type="text" placeholder="Я&nbsp;поеду ...">
+                    <textarea class="form__text" placeholder="Потому что я ..."></textarea>
+                    <button class="form__button" type="submit">Поехали уже куда-нибудь!</button>
+                </form>
+            </div>
+            <img class="form__image" src="./images/airport-schedule.jpg" alt="Табло в Аэропорте">
+        </section>
+
+        <!-- блок с видео -->
+        <section class="video">
+            <p class="video__text">А&nbsp;пока что&nbsp;- всё ещё сидим дома!</p>
+            <video class="video__file" poster="./images/video.jpg" muted preload="auto"></video>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyrights">&copy;&nbsp;2021</p>
+    </footer>
 
 </body>
 

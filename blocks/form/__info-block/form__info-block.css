@@ -1,0 +1,6 @@
+.form__info-block {
+    display: flex;
+    flex-direction: column;
+    margin: 115px 187px 105px 60px;
+    max-width: 308px;
+}

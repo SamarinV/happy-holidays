@@ -1,0 +1,5 @@
+.form__area {
+    display: flex;
+    flex-direction: column;
+    max-width: 308px;
+}
