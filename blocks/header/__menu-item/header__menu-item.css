@@ -3,3 +3,14 @@
   margin: 0 35px 0 0;
   padding: 0;
 }
+
+@media screen and (max-width: 767px){
+  .header__menu-item {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 424px){
+  .header__menu-item {
+    margin-bottom: 25px;
+  }
+}

@@ -9,3 +9,17 @@
   text-transform: uppercase;
   margin-top: 110px;
 }
+
+@media screen and (max-width: 1023px){
+  .intro__caption {
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .intro__caption {
+    margin-top: 10px;
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+}

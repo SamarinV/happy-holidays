@@ -1,6 +1,7 @@
 .places__paragraph {
   margin: 0;
   padding: 0;
+  max-width: 382px;
   margin-bottom: 22px;
   font-size: 14px;
   line-height: 145%;

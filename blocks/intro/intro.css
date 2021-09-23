@@ -1,5 +1,31 @@
 .intro {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 355px;
+  grid-template-rows: 100%;
   justify-content: space-between;
   margin: 0 155px 130px 70px;
+}
+
+@media screen and (max-width: 1279px){
+  .intro {
+    margin: 0 55px 130px 54px;
+  }
+}
+@media screen and (max-width: 1023px){
+  .intro {
+    margin: 0 20px 70px 20px;
+    grid-template-columns: 1fr 310px;
+  }
+}
+@media screen and (max-width: 767px){
+  .intro {
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 210px;
+  }
+}
+@media screen and (max-width: 424px){
+  .intro {
+    margin: 0 auto 20px auto;
+    display: block;
+  }
 }
