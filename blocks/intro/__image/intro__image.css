@@ -2,4 +2,27 @@
   width: 355px;
   max-height: 355px;
   object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1023px){
+  .intro__image {
+    width: 310px;
+    max-height: 310px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .intro__image {
+    width: 210px;
+    max-height: 210px;
+  }
+}
+@media screen and (max-width: 424px){
+  .intro__image {
+    width: 100vw;
+    max-height: 320px;
+    object-position: top;
+    display: block;
+  }
 }

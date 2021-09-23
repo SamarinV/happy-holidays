@@ -4,3 +4,9 @@
   padding: 0;
   display: flex;
 }
+
+@media screen and (max-width: 424px){
+  .header__menu-list {
+    display: block;
+  }
+}

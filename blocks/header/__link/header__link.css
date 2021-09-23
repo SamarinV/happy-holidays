@@ -3,4 +3,8 @@
   color: #000;
   font-size: 13px;
   font-weight: bold;
+  display: block;
+}
+.header__link:hover {
+  text-decoration: underline
 }
