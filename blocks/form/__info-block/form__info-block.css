@@ -1,8 +1,8 @@
 .form__info-block {
     display: flex;
     flex-direction: column;
-    margin: 115px 60px 105px;
-    max-width: 308px;
+    margin: 140px 68px 122px;
+    max-width: 355px;
 }
 
 @media screen and (max-width: 1023px) {

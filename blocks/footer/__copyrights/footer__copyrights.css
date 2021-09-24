@@ -1,10 +1,8 @@
 .footer__copyrights {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  line-height: 1.2;
+  font-size: 34px;
   text-align: center;
   font-weight: bold;
-  margin: 252px auto;
+  margin: 290px auto 300px;
 }
 
 @media screen and (max-width: 1023px) {
