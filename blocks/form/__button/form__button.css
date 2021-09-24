@@ -8,4 +8,10 @@
     font-size: 14px;
     align-self: flex-end;
     min-height: 29px;
+    transition: .5s ease-in;
+}
+
+.form__button:hover {
+    background-color: #FFFAFA;
+    color: black;
 }
