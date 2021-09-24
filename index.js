@@ -1,16 +1,15 @@
-const video = document.querySelector('.video__file'); // присвоили переменой video класс нашего видео
-const videoText = document.querySelector('.video__text'); //присвоили переменной videoText класс нашего текста
-video.addEventListener('play', () => {videoText.style.display = ('none')}); //слушаем событие play и меняем стиль
-                                                                            // на display none
+const video = document.querySelector('.video__file');
+const videoText = document.querySelector('.video__text');
+video.addEventListener('play', () => {videoText.style.display = ('none')});
 
-var videoBlock = document.getElementById('video-block'),
-vid = document.getElementById('vid');
+var videoBlock = document.querySelector('.video__block'),
+videoFile = document.querySelector('.video__file');
 videoBlock.addEventListener('click', function() {
-if (vid.paused) {
-  vid.play();
-  videoBlock.classList.remove('paused');
+if (videoFile.paused) {
+  videoFile.play();
+  videoBlock.classList.remove('video__paused');
 } else {
-  vid.pause();
-  videoBlock.classList.add('paused');
+  videoFile.pause();
+  videoBlock.classList.add('video__paused');
 };
 })

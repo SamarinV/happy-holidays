@@ -1,12 +1,13 @@
 .video__text {
     position: absolute;
-    left: 4.5%;
-    top: 20%;
+    left: 5.8%;
+    top: 16%;
     color: white;
     font-size: 34px;
     z-index: 2;
     font-weight: bold;
     max-width: 635px;
+    letter-spacing: 1.7px;
 }
 
 @media screen and (max-width: 1023px) {
