@@ -1,9 +1,10 @@
 .men__title {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: bold;
-  line-height: 1.35;
+  line-height: 130%;
   max-width: 420px;
-  margin: 32px 0 115px 68px;
+  margin: 20px 0 122px 68px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 767px) {
