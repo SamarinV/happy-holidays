@@ -107,16 +107,21 @@
 
         <!-- блок с видео -->
         <section class="video">
-          <video class="video__file" poster="./images/video.jpg" muted preload="auto" src="#"></video>
-          <p class="video__text">А&nbsp;пока что&nbsp;- всё ещё сидим дома!</p>
-          <img class="video__play" src="./images/play.png" alt="Кнопка включения">
+            <p class="video__text">А пока что - всё ещё сидим дома!</p>
+            <img class="video__play" src="./images/play.png" alt="Кнопка включения">
+            <video href="#video" class="video__file" poster="./images/video.jpg" preload controls tabindex="1">
+              <source src="./video/Хадн_дадн_—_Мы_сегодня_дома[ZeConverter.net].mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+              <source src="./video/Хадн_дадн_—_Мы_сегодня_дома_ZeConverter.net_.webm" type='video/webm; codecs="vp8, vorbis"' />
+              <source src="./video/Хадн_дадн_—_Мы_сегодня_дома_ZeConverter.net__1.ogv" type='video/ogg; codecs="theora, vorbis"' />
+              Тег video не поддерживается вашим браузером.
+            </video>
         </section>
     </main>
 
     <footer class="footer">
         <p class="footer__copyrights">&copy;&nbsp;2021</p>
     </footer>
-
+<script src="./index.js"></script>
 </body>
 
 </html>
