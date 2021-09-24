@@ -20,7 +20,7 @@
 }
 @media screen and (max-width: 424px){
   .intro__image {
-    width: 100vw;
+    width: 100%;
     max-height: 320px;
     object-position: top;
     display: block;
