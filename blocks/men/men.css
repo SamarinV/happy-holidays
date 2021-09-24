@@ -1,5 +1,17 @@
 .men {
     display: flex;
     flex-direction: column;
-    margin: 115px auto 110px;
+    margin: 115px auto 90px;
 }
+
+@media screen and (max-width: 767px) {
+    .men {
+        margin: 85px auto 60px;
+    }
+  }
+
+  @media screen and (max-width: 424px) {
+    .men {
+        margin: 50px auto;
+    }
+  }
