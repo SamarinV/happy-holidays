@@ -1,7 +1,13 @@
 .men__author {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: medium;
-    font-size: 10px;
-    line-height: 1;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 1.1;
     text-transform: uppercase;
+    margin: 0 0 30px 0;
 }
+
+@media screen and (max-width: 625px) {
+    .men__author {
+        margin-bottom: 15px;
+    }
+  }
