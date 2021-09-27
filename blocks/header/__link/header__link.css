@@ -8,3 +8,9 @@
 .header__link:hover {
   text-decoration: underline
 }
+
+@media screen and (max-width: 424px) {
+  .header__link {
+    align-self: flex-start;
+  }
+}
